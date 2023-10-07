@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26762,9 +26762,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
@@ -26785,7 +26785,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0605" package3d_urn="urn:adsk.eagle:package:23398/2" value="EEEHA1E220P"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -26793,9 +26793,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U4" library="torex" deviceset="XC6206" device="" package3d_urn="urn:adsk.eagle:package:6993131/1" value="AP2127N-3.3TRG1"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="D1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="D2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="D3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="D1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="GREEN"/>
+<part name="D2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YELLOW"/>
+<part name="D3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="RED"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
